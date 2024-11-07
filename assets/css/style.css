@@ -1589,6 +1589,7 @@ label {
 	text-indent: -999999999px;
 	width: 16px;
 	height: 16px;
+	/* margin-bottom: 20px; */
 	border-radius: 50%;
 	border: 2px solid var(--tg-border-color-two);
 	background: transparent;
@@ -4072,8 +4073,15 @@ justify-content: center;
 	border-radius: 20px;
 	background: var(--tg-black-two);
 	text-align: center;
-	padding: 10px 30px;
+	padding: 20px 30px;
 }
+
+
+.testimonial-item-two:hover .tools-icon {
+	transform: translateY(7px);
+}
+
+
 .testimonial-content-two .rating {
 	display: flex;
 	align-items: center;
@@ -4116,8 +4124,16 @@ justify-content: center;
 	color: var(--tg-dark-electric);
 }
 .testimonial-area-two .row {
-	margin: 0 -10px;
+	/* margin: 0 -10px; */
 }
+
+.testimonial-area-two  {
+	background: var(--tg-section-background-three);
+	margin-bottom: 50px;
+}
+
+
+
 .testimonial-area-two .row [class*="col-"] {
 	padding: 0 10px;
 }
